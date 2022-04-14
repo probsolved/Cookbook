@@ -11,6 +11,11 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
 import { HeaderComponent } from './header/header.component';
 import { DropdownDirective } from './shared/dropdown.directive';
 import { ShoppingListService } from './shopping-list/shopping-list.service';
+import { Routes } from '@angular/router';
+
+const appRoutes: Routes = [
+
+]
 
 @NgModule({
   declarations: [
