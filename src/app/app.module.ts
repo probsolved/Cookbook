@@ -12,6 +12,7 @@ import { HeaderComponent } from './header/header.component';
 import { DropdownDirective } from './shared/dropdown.directive';
 import { ShoppingListService } from './shopping-list/shopping-list.service';
 import { Routes } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
 
 const appRoutes: Routes = [
 
@@ -30,7 +31,8 @@ const appRoutes: Routes = [
     DropdownDirective
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [ShoppingListService],
   bootstrap: [AppComponent]
